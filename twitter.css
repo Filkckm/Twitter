@@ -1,0 +1,82 @@
+body {background-color: rgb(244, 248, 249);
+  	border: 20px rgb(225, 232, 237) solid;
+	border-radius: 5px;
+	padding: 20px;
+	font-family: Helvetica;
+  	font-size: 18px;  
+	height: 240;
+
+
+}
+
+header{
+	font-size: 32;
+	width: 350px;
+}
+.face,.header,.twitter-handle,         .twitter-logo,.follow-button {
+	position: relative;	
+}
+
+.twitter-logo, .follow-button{
+}
+.twitter-logo{position: fixed;
+	right: 145;
+	top:64
+}
+.follow-button{position:fixed;
+	text-align:right;
+	width: 130; 
+	line-height: 1.4;
+	top:15;
+	color: rgb(85, 172, 238);
+	right: 44;
+	border: 3px solid rgb(85, 172, 238);
+	padding:10;
+	border-radius: 10px;
+	
+}
+p {
+	line-height: 10px; 
+	font-size: 30px;
+	top: -65;
+}
+.twitter-handle {
+	font-size: 20px;
+	color: rgb(104, 109, 129);
+	width: auto;
+	border: 10px 10px 10px 10px;
+	position:relative;
+	top:-10
+}
+
+.face{ position: relative;	
+}
+
+.tweet-text,.date-time,.retweet-response{
+	position: relative ;
+	margin: 10px;
+}
+.tweet-text{position: relative;
+	top:;
+	line-height: 2	;
+}
+.header{
+	position: relative;
+	left: 76;
+	bottom:70;
+}
+.date-time {
+	line-height: normal;
+	font-size: 30px;
+	color: rgb(104, 109, 129);
+	max-width: 600;
+	position: relative;
+}
+.retweet-response {
+	line-height: normal;
+	font-size: 30px;
+	color: rgb(104, 109, 129);
+	max-width: 600;
+	position: relative ;
+	
+}
